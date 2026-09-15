@@ -2,7 +2,7 @@
 
 > **The No-PC Android TV Optimizer** — Debloat, accelerate (AOT DEX compilation), sideload APKs, and manage your Android TV or Google TV directly from your Android phone or tablet over local Wi-Fi. No computer, terminal, or root required. 100% safe and reversible.
 
-[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20Universal%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/azkodi4u/atv-optimizer-releases/releases/latest/download/atv-optimizer-mobile-universal.apk)
+[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20Universal%20APK-brightgreen?style=for-the-badge&logo=android)](https://azkodi4u.github.io/atv-optimizer-releases/atv-optimizer-mobile-universal.apk)
 [![Gumroad Pro](https://img.shields.io/badge/Gumroad-Pro%20Lifetime%20%28%244.99%29-ff90e8?style=for-the-badge&logo=gumroad)](https://azkodi.gumroad.com/l/tmyght)
 
 Tested and optimized for **Chromecast with Google TV, Google TV Streamer, Nvidia Shield TV (Tube & Pro), Walmart Onn 4K / Onn 4K Pro, Xiaomi TV Box, TCL, Sony Bravia, and Hisense Google TVs** (Android 9 through Android 14+).
@@ -11,7 +11,8 @@ Tested and optimized for **Chromecast with Google TV, Google TV Streamer, Nvidia
 
 ## 📥 Download
 
-👉 **[Download ATV Optimizer Universal APK (Latest Release)](https://github.com/azkodi4u/atv-optimizer-releases/releases/latest/download/atv-optimizer-mobile-universal.apk)**
+👉 **[Direct Download Universal APK (v1.0.0)](https://azkodi4u.github.io/atv-optimizer-releases/atv-optimizer-mobile-universal.apk)** (26.3 MB)  
+🌐 **[Web Download Page](https://azkodi4u.github.io/atv-optimizer-releases/)** | **[GitHub Releases Hub](https://github.com/azkodi4u/atv-optimizer-releases/releases/latest)**
 
 *Compatible with any Android phone or tablet running Android 9.0 or newer.*
 
