@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — ATV Optimizer</title>
+  <meta name="description" content="Privacy Policy for ATV Optimizer Android application. Transparent, local-first, zero telemetry.">
+  <style>
+    :root {
+      --bg: #090b0e;
+      --card-bg: #12161f;
+      --border: #242c3d;
+      --primary: #2563eb;
+      --accent: #10b981;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .effective-date {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    p, ul {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+    }
+    .highlight-box strong {
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="effective-date">Last Updated: September 2026 • Application: <strong>ATV Optimizer</strong> (com.atvoptimizer.mobile)</div>
+
+    <div class="highlight-box">
+      <strong>Core Privacy Commitment:</strong> ATV Optimizer is built on a <em>local-first</em> architecture. We do not operate external tracking servers, we do not log your activity, and we do not collect personal identification data. Your Android TV controls and debloat actions remain strictly between your phone and your TV on your private local network.
+    </div>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>ATV Optimizer does <strong>not</strong> collect, transmit, store, or sell any of the following:</p>
+    <ul>
+      <li>Personal identification information (such as your name, email address, physical address, or phone number).</li>
+      <li>TV viewing habits, streaming activity, installed media content, or channel selections.</li>
+      <li>Precise geolocation data.</li>
+      <li>Keyboard keystrokes, passwords, or personal credentials.</li>
+    </ul>
+
+    <h2>2. Local Network Communication & Device Storage</h2>
+    <p>To provide its core functionality, the app requests local network access to communicate with your Android TV or Google TV:</p>
+    <ul>
+      <li><strong>Local Wireless ADB (Android Debug Bridge):</strong> The application communicates directly with your Android TV device across your local Wi-Fi network. All requests (package listing, memory usage checks, AOT compilation, remote control commands) occur strictly within your private home network.</li>
+      <li><strong>Snapshots and Backups:</strong> System configuration snapshots and application backups are stored locally in the application's secure private sandbox on your phone. You can clear or delete these files at any time via the app settings or Android device storage management.</li>
+    </ul>
+
+    <h2>3. Third-Party Services & Advertising</h2>
+    <p>The application integrates reputable third-party SDKs to support its freemium model and payment processing:</p>
+    <ul>
+      <li><strong>Google AdMob (Google LLC):</strong> The app displays optional 30-second rewarded video advertisements to allow users to unlock premium features for free. Google AdMob may collect and process device identifiers, advertising IDs (such as Google Play Advertising ID), network information, and ad interaction metrics to serve ads and prevent fraud. For details on how Google processes ad data, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Technologies</a>.</li>
+      <li><strong>Google Play In-App Billing:</strong> If you choose to purchase an optional lifetime upgrade within the Google Play version, the transaction is processed directly and securely through Google Play's billing service. We never receive or store your credit card or financial account numbers.</li>
+    </ul>
+
+    <h2>4. Permissions Required & Justification</h2>
+    <ul>
+      <li><code>android.permission.INTERNET</code>: Required to establish local ADB network connections to your TV over Wi-Fi and to load Google AdMob advertisements.</li>
+      <li><code>android.permission.ACCESS_NETWORK_STATE</code> / <code>ACCESS_WIFI_STATE</code>: Required to verify that your mobile device is connected to Wi-Fi before attempting local TV discovery.</li>
+      <li><code>android.permission.CHANGE_WIFI_MULTICAST_STATE</code>: Required to discover Android TVs on your local network using mDNS (Multicast DNS).</li>
+      <li><code>android.permission.NEARBY_WIFI_DEVICES</code>: Required on Android 13+ to discover local network targets without requesting fine location permissions (marked with <code>neverForLocation</code>).</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Our service does not address anyone under the age of 13. We do not knowingly collect personal data from children. If you become aware that a child has provided us with personal information, please contact us so appropriate measures can be taken.</p>
+
+    <h2>6. Security of Your Data</h2>
+    <p>Because your diagnostic data and device control commands never leave your local Wi-Fi network, your TV setup is protected by your local home network router and encryption.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy, you can reach out via our GitHub release repository: <a href="https://github.com/azkodi4u/atv-optimizer-releases/issues" target="_blank" rel="noopener">github.com/azkodi4u/atv-optimizer-releases</a>.</p>
+
+    <footer>
+      <p>&copy; 2026 ATV Optimizer. All rights reserved.</p>
+      <p><a href="./index.html">Return to Home</a> • <a href="https://github.com/azkodi4u/atv-optimizer-releases">GitHub Repository</a></p>
+    </footer>
+  </div>
+</body>
+</html>
